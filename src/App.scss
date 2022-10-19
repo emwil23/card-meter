@@ -1,0 +1,30 @@
+
+$yellow: rgb(255, 184, 0);
+$green: rgb(27, 164, 147);
+$red: rgb(228, 72, 22);
+
+.card {
+    width: 333px !important;
+    height: 187px !important;
+    background-color: #3F3F3F !important;
+}
+
+.circle-text{
+    font-size: .8rem;
+}
+
+.color{
+    &-food{
+        background-color: $yellow;
+    }
+    &-shopping{
+        background-color: $green;
+    }
+    &-movies{
+        background-color: $red;
+    }
+}
+
+.progress{
+    height: 5px;
+}
